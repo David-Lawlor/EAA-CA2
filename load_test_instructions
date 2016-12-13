@@ -1,0 +1,9 @@
+/*
+ * This is Linux ONLY code
+ * Do not compile on windows
+ * compile this file using the command
+ * g++ -fopenmp loadtest.C -o loadtest
+ * once compilation is successful run the test using
+ * ./loadtest
+ * Ctrl C to stop the test
+ */
