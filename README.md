@@ -1,1 +1,2 @@
-# r_lab
+# EAA CA2
+Analysis of cpu load with R 
