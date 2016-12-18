@@ -13,7 +13,7 @@ number_of_concurrent_users_N <- results$N
 percentage_of_time_idle <- results$idle
 
 # time the load test ran for
-testtime = 10
+testtime <- 10
 
 # The output of mpstat is the percetage of time spent idle.
 # Using this we can deduce 100 - percentage of time spent idle(idle) = Bi / T 
@@ -30,7 +30,7 @@ system_throughput_X0 <- number_of_completions_C0 / testtime
 service_demand_Di <- (utilisationCPU_Ui / system_throughput_X0)
 
 # R = N / X0 (Little’s Law)
-response_time_R = number_of_concurrent_users_N / system_throughput_X0
+response_time_R <-  number_of_concurrent_users_N / system_throughput_X0
 
 ###
 
